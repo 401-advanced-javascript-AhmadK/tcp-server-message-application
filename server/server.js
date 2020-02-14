@@ -4,7 +4,7 @@
 'use strict';
 
 const net = require('net');
-const PORT = 3001;
+const PORT = process.env.PORT;
 const server = net.createServer();
 
 let socketPool = {};

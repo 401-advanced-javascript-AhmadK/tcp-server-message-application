@@ -4,8 +4,9 @@ const inquirer = require('inquirer');
 const net = require('net');
 
 const client = new net.Socket();
+const PORT = process.env.PORT || 3003;
 
-client.connect(3001, '192.168.1.126', () => {});
+client.connect( PORT , '192.168.1.126', () => {});
 
 let name = '';
 const messages = [];

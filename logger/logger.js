@@ -2,8 +2,9 @@
 
 const net = require('net');
 const client = new net.Socket();
+const PORT = process.env.PORT || 3003;
 
-client.connect(3001, 'localhost', () => {});
+client.connect(PORT, 'localhost', () => {});
 
 client.on('data', (data) => {
   let event = JSON.parse(data);
