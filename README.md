@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR]()
+- [submission PR](https://github.com/401-advanced-javascript-AhmadK/tcp-server-message-application/pull/1)
 
 
 #### `.env` requirements
